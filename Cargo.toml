@@ -28,7 +28,7 @@ publicsuffix = "2.1.1"
 serde = { version = "1.0.136", features = [ "derive" ] }
 serde_json = "1.0.79"
 time = "0.3.7"
-url = "2.2.2"
+url = { git = "https://github.com/raw-http/rust-url/url" }
 
 indexmap = { version = "1.6.2", optional = true }
 
